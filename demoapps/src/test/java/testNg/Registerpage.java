@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class creatPOM
-	{
-		public void registerpage()
+public class Registerpage
+{
+		Registerpage(WebDriver driver)
 		{
 			PageFactory.initElements(driver, this);
 		}
@@ -21,7 +21,7 @@ public class creatPOM
 		public WebElement registerbutton;
 		@FindBy(xpath="//div[text()='Registered successfully']")
 		public WebElement registersuccessfully;
-	
+		
 		public void registeruser(String name, String email, String Password)
 		{
 			nametextfield.sendKeys("ss");

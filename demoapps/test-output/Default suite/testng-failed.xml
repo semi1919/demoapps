@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNg.softassert$softassertt">
+      <class name="testNg.driverregister">
         <methods>
-          <include name="test"/>
+          <include name="run"/>
         </methods>
-      </class> <!-- testNg.softassert$softassertt -->
+      </class> <!-- testNg.driverregister -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
